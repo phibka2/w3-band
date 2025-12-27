@@ -88,6 +88,10 @@
     .content-contact-send input:last-child {
         width: 100%;
     }
+}
 
-
+@media (hover: hover) {
+    #nav li:hover .subnav {
+        display: block;
+    }
 }
