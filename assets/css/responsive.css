@@ -27,7 +27,12 @@
     }
 
     #nav #subnav {
-        left: 54px;
+        position: relative; /* Thay vì absolute để nó nằm trong luồng của header */
+        left: 0;
+        top: 0;
+        width: 100%;
+        box-shadow: none;
+        background-color: #4d4d4d; /* Màu nền khác một chút để phân biệt */
     }
 
     #nav #subnav a {
