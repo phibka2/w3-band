@@ -1,0 +1,93 @@
+@media (max-width: 600px) {
+    #nav {
+        display: block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header #nav li {
+        display: block;
+    }
+
+    #nav li a {
+        display: block;
+    }
+
+    #nav li #home {
+        display: inline-block;
+    }
+    .search-btn {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    #nav #subnav {
+        left: 54px;
+    }
+
+    #nav #subnav a {
+        background: #333;
+        color: #fff;
+    }
+
+    .content-about {
+        padding: 0;
+    }
+
+    .content-member-list {
+        padding: 46px 0 0 0;
+    }
+
+    .content-member-item {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .member-img {
+        width: 300px;
+    }
+    
+    .content-tour {
+        padding: 0;;
+    }
+
+    .content-tour-place-item {
+        width: 100%;
+    }
+
+    .content-tour-place-item {
+        padding: 8px;
+    }
+
+    .btn {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .content-contact-info {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    .content-contact-send {
+        width: 100%;
+    }
+
+    .content-contact-send input {
+        width: 100%;
+    }
+
+    .content-contact-send input:last-child {
+        width: 100%;
+    }
+
+
+}

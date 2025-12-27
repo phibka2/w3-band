@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li><a id="home" href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li style="position: relative;">
+                    <a href="#">More<i class="fa-solid fa-caret-down"></i></a>
+                    <ul class='subnav' id="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+            <div class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="search-btn menu-btn"><i class="fa-solid fa-bars"></i></div>
+        </div>
+
+        <div id="slider">
+            <div class="slider-text">
+                <h2 class="text-heading">Chicago</h2>
+                <p class="text-desc">Thank you, Chicago - A night we won't forget.</p>
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="band" class="content-about">
+                <div class="container">
+                    <h2 class="content-heading">THE BAND</h2>
+                    <p class="content-subheading">We love music</p>
+                    <p class="content-about-desc">We have created a fictional band website. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt
+                        mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat.</p>
+
+                    <div class="content-member-list">
+                        <div class="content-member-item">
+                            <p class="member-name">name</p>
+                            <img class="member-img" src="./assets/img/bandmember.jpg" alt="Member">
+                        </div>
+                        <div class="content-member-item">
+                            <p class="member-name">name</p>
+                            <img class="member-img" src="./assets/img/bandmember.jpg" alt="Member">
+                        </div>
+                        <div class="content-member-item">
+                            <p class="member-name">name</p>
+                            <img class="member-img" src="./assets/img/bandmember.jpg" alt="Member">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tour" class="content-tour">
+                <div class="container">
+                    <h2 class="content-heading">TOUR DATES</h2>
+                    <p class="content-subheading">Remember to book your tickets!</p>
+                    <ul class="content-tour-ticket">
+                        <li class="content-tour-ticket-item">September <span class="sold-out">Sold out</span></li>
+                        <li class="content-tour-ticket-item">October <span class="sold-out">Sold out</span></li>
+                        <li class="content-tour-ticket-item">November <span class="sold-3">3</span></li>
+                    </ul>
+                    <div class="content-tour-place">
+                        <div class="content-tour-place-item">
+                            <img class="content-tour-place-img" src="./assets/img/newyork.jpg" alt="newyork">
+                            <div class="content-tour-place-detail">
+                                <h5 class="content-tour-place-name">New York</h5>
+                                <p class="content-tour-place-date">Fri 27 Nov 2016</p>
+                                <p class="content-tour-place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae
+                                    justo.</p>
+                                <button href="" class="btn">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="content-tour-place-item">
+                            <img class="content-tour-place-img" src="./assets/img/paris.jpg" alt="paris">
+                            <div class="content-tour-place-detail">
+                                <h5 class="content-tour-place-name">Paris</h5>
+                                <p class="content-tour-place-date">Sat 28 Nov 2016</p>
+                                <p class="content-tour-place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae
+                                    justo.</p>
+                                <button class="btn">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="content-tour-place-item">
+                            <img class="content-tour-place-img" src="./assets/img/sanfran.jpg" alt="sanfran">
+                            <div class="content-tour-place-detail">
+                                <h5 class="content-tour-place-name">San Francisco</h5>
+                                <p class="content-tour-place-date">Sun 29 Nov 2016</p>
+                                <p class="content-tour-place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae
+                                    justo.</p>
+                                <button class="btn">Buy Tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+            <div class="modal-ticket">
+                <div class="modal-ticket-container">
+                    <form class="modal-ticket-form" action="">
+                        <header class="modal-ticket-header">
+                            <h2 class="modal-ticket-heading">Tickets</h2>
+                            <span class="modal-ticket-heading-close">X</span>
+                        </header>
+                        <div class="modal-ticket-body">
+                            <label class="modal-ticket-quantity-label" for="modal-ticket-quantity">
+                                Tickets, $15 per person
+                                <input id="modal-ticket-quantity" type="text" placeholder="How many?">
+                            </label>
+                            <label class="modal-ticket-email-label" for="modal-ticket-email">
+                                Send To
+                                <input id="modal-ticket-email" type="email" placeholder="How many?">
+                            </label>
+                            <button class="btn-pay">PAY</button>
+                        </div>
+                        <div class="modal-ticket-footer">
+                            <button type="button" class="btn-close">Close <i class="fa-solid fa-x"></i></button>
+                            <p class="modal-ticket-help">Need <a href="#">help?</a></p>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div id="contact" class="content-contact">
+                <div class="container">
+                    <h2 class="content-heading">CONTACT</h2>
+                    <p class="content-subheading">Fan? Drop a note!</p>
+                    <div class="content-contact-body">
+                        <address class="content-contact-info">
+                            <p class="content-contact-address"><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
+                            <p class="content-contact-number"><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                            <p class="content-contact-email"><i class="fa-solid fa-envelope"></i>Email: mail@mail.com
+                            </p>
+                        </address>
+                        <div class="content-contact-send">
+                            <form action="">
+                                <input type="text" placeholder="Name">
+                                <input type="email" placeholder="Email">
+                                <input type="text" placeholder="Message">
+                                <input type="submit" value="SEND">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <img src="./assets/img/map.jpg" alt="map">
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="container">
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-snapchat"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="copyright">
+                    <p>Powered by <a href="#">w3.css</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.querySelector('.menu-btn');
+        var headerHeight = header.clientHeight;
+        mobileMenu.onclick = function () {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = "auto";
+            }
+            else {
+                header.style.height = null;
+            }
+        };
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            menuItem.onclick = function (event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (isParentMenu) {
+                    event.preventDefault();
+                    header.style.overflow = 'visible';
+                    header.style.height = "auto";
+                }
+                else {
+                    header.style.height = null;
+                    if (window.innerWidth <= 600) {
+                        header.style.overflow = 'hidden';
+                    } else {
+                        header.style.overflow = 'visible';
+                    }
+                }
+            }
+        }
+    </script>
+
+    <script>
+        const openBtns = document.querySelectorAll(".btn");
+        const closeBtns = document.querySelectorAll(".modal-ticket-heading-close, .btn-close");
+        const modalContainer = document.querySelector(".modal-ticket-container");
+        const modalTicket = document.querySelector(".modal-ticket");
+        console.log(closeBtns);
+        function openModalTicket() {
+            modalTicket.classList.add('js-modal-open');
+        }
+        function closeModalTicket() {
+            modalTicket.classList.remove('js-modal-open');
+        }
+        for (const openBtn of openBtns) {
+            openBtn.addEventListener('click', openModalTicket);
+        }
+        for (const closeBtn of closeBtns) {
+            closeBtn.addEventListener('click', closeModalTicket);
+        }
+        modalTicket.addEventListener('click', closeModalTicket);
+        modalContainer.addEventListener('click', function (event) {
+            event.stopPropagation();
+        });
+    </script>
+</body>
+
+</html>
